@@ -1,0 +1,13 @@
+#include<stdio.h>
+int main()
+{
+  int number,r,s,divider=10000;
+  printf("Enter 5-digit number\n");
+  scanf("%d",&number);
+  for(divider=10000;divider<=10000;divider=divider/10)
+  {
+   s = number/divider;
+   r = s%10;
+   printf(" %d\n",r);
+  }
+}
